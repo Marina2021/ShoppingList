@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping list</title>
+</head>
+<body>
+<h1>Shopping list</h1>
+<form action="add" method="get">
+    <label for="">Add Item</label>
+    <input type="text" name="item">
+    <input id="addNeed" type="submit" value="Need">
+    <input id="addHave" type="submit" value="Have">
+</form>
+<h1>Need:</h1>
+<ul class="list">
+    <li><input type="checkbox" name="item">Avocado<a href="#">&#10006;</a></li>
+    <li><input type="checkbox" name="item">Banana<a href="#">&#10006;</a></li>
+    <li><input type="checkbox" name="item">Cherries<a href="#">&#10006;</a></li>
+    <li><input type="checkbox" name="item">Dragon fruit<a href="#">&#10006;</a></li>
+    <li><input type="checkbox" name="item">Eggplant<a href="#">&#10006;</a></li>
+</ul>
+<h1>Have:</h1>
+<ul class="list">
+    <li><input type="checkbox" name="item" checked>Figs<a href="#">&#10006;</a></li>
+    <li><input type="checkbox" name="item" checked>Grapes<a href="#">&#10006;</a></li>
+    <li><input type="checkbox" name="item" checked>Hazelnuts<a href="#">&#10006;</a></li>
+    <li><input type="checkbox" name="item" checked>Iceberg Lettuce<a href="#">&#10006;</a></li>
+    <li><input type="checkbox" name="item" checked>Jackfruit<a href="#">&#10006;</a></li>
+</ul>
+
+
+<script src="shopping.js"></script>
+</body>
+</html>
